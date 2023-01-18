@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-clip: border-box;
+    background-origin: padding-box;
 }
 #quote-container{
     width: 100%;
@@ -19,16 +20,27 @@ body{
     justify-content: center;
     align-items: center;
 }
-#quote-box{
+#quotes-box{
     width: 50%;
-    height: 50%;
     background: rgba(0,0,0,0.5);
     display: flex;
-    line-height: 1.4;
-    word-spacing: 4px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     padding: 2rem;
     border-radius: 1rem;
 }
+#quote{
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+#author{
+    text-align: left;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
